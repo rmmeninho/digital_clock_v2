@@ -1,0 +1,12 @@
+<p>reloj-v2 works!</p>
+
+<div [@animacionTiempo]="estadoPantalla" class='pantalla'>
+<div class="hora"> 
+    <p id="short_time">{{fecha | date:'HH:mm'}}</p>   
+</div>
+<div class="fecha">
+    <p id="short_fetch">{{fecha | date:'EEEE, LLL d'}}</p>
+</div>
+</div>
+
+

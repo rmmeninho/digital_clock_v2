@@ -1,0 +1,44 @@
+.pantalla{
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.hora{
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -200px;
+}
+
+.fecha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#short_time{
+    font-size: 200px;
+    color: blue;
+}
+
+#short_fetch{
+    font-size: 50px;
+    color: blueviolet;
+}
+
+.manana{
+    background-image: url('/assets/img/manana.jpg');
+}
+
+.tarde{
+    background-image: url('/assets/img/tarde.jpg');    
+}
+
+.atardecer{
+    background-image: url('/assets/img/atardecer.jpg');
+}
+
+.noche{
+    background-image: url('/assets/img/noche.jpg');
+}
